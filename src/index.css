@@ -1,0 +1,25 @@
+.btnn{
+  border: 1px solid black;
+}
+.btnn:hover{
+  color: white;
+  background-color: black;
+}
+.back{
+  background-image: url(./assets/hero_2.jpg);
+background-size: contain;
+  background-repeat: no-repeat;
+height: 900px;
+
+}
+.bg{
+  background-color: #6f42c1;
+}
+.btnnn{
+  border: 1px solid white;
+  color: white;
+}
+.btnnn:hover{
+  color: black;
+  background-color: white;
+}
