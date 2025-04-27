@@ -20,7 +20,7 @@ function Content2() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
          
-            <a href="#" className="rounded p-2  btnn btn  text-center">
+            <a href="#" className="rounded p-3  btnn btn  text-center">
               LEARN MORE
             </a>
           

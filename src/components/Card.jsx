@@ -1,8 +1,8 @@
 function Card() {
   return (
-    <div className="container mt-5">
-      <div className="row justify-content-center">
-        <div className="col-md-3 text-center">
+    <div className="container mt-5"     data-aos="fade-up" data-aos-delay="300">
+      <div className="row justify-content-center ">
+        <div className="col-md-3 text-center mt-5 ">
           <a href="#">
             <svg
               className="mb-3"
@@ -21,7 +21,7 @@ function Card() {
             id volume amet.
           </p>
         </div>
-        <div className="col-md-3 text-center">
+        <div className="col-md-3 text-center mt-5">
           <a href="#">
             <svg
               className="mb-3"
@@ -41,7 +41,7 @@ function Card() {
           </p>
         </div>
 
-        <div className="col-md-3 text-center">
+        <div className="col-md-3 text-center mt-5">
           <a href="#">
             <svg
               className="mb-3"
@@ -60,7 +60,7 @@ function Card() {
             id volume amet.
           </p>
         </div>
-        <div className="col-md-3 text-center">
+        <div className="col-md-3 text-center mt-5">
           <a href="#">
             <svg
               className="mb-3"

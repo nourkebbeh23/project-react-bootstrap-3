@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="back">
+    <div>
 
       <div class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -51,11 +51,11 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-    <div data-aos="fade-up" data-aos-delay="300">
-<h1 className=" text-center"> We are innova we create great stuff.</h1>
-    </div>
-    
-    </div>
+
+
+</div>
+
+
   );
 };
 

@@ -6,7 +6,7 @@ function Content() {
   return (
     <div className="container">
       <div className="row justify-content-center mt-5 ">
-<div className="text-center mt-5">
+<div className="text-center ">
 <h3>Selected Work</h3>
         <p className="text-secondary">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
