@@ -1,34 +1,79 @@
-.btnn{
+.btnn {
   border: 1px solid black;
 }
-.btnn:hover{
+.btnn:hover {
   color: white;
   background-color: black;
 }
-.back{
-  background-image: url(./assets/hero_2.jpg)  ;
-background-size: cover;
+.back {
+  background-image: url(./assets/hero_2.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-height: 800px;
-
-
+  height: 800px;
 }
-.bg{
+.bg {
   background-color: #6f42c1;
 }
-.btnnn{
+.btnnn {
   border: 1px solid white;
   color: white;
 }
-.btnnn:hover{
+.btnnn:hover {
   color: black;
   background-color: white;
- 
 }
-ul li{
+ul li {
   list-style: none;
 }
-.bgg{
- 
+.bgg {
   margin-top: 250px;
 }
+.n img{
+  object-fit: cover;
+  transform: 2s ease;
+}
+.n:hover {
+  transform: scale(1.01);
+  transition: 0.5s;
+}
+.carddd {
+  position: relative;
+  overflow: hidden;
+}
+
+.cardd-textt {
+  width: 100%;
+  padding: 0 10px;
+  position: absolute;
+  top: -100%;
+  color: black;
+  transition: 1.1s;
+}
+
+.carddd:hover .cardd-textt {
+  top: 130px;
+  text-align: center;
+}
+
+.ani{
+  animation-name:move ;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+
+ @keyframes move {
+  0% {
+    transform: translatey(50px);
+  }
+  50% {
+    transform: translatey(20px);
+  }
+  75% {
+    transform: translatey(-50px);
+  }
+  100% {
+    transform: translatey(30px);
+  }
+ }
+ 

@@ -1,6 +1,6 @@
 function Card() {
   return (
-    <div className="container mt-5"     data-aos="fade-up" data-aos-delay="300">
+    <div className="container mt-5 "data-aos="fade-up" data-aos-delay="200" >
       <div className="row justify-content-center ">
         <div className="col-md-3 text-center mt-5 ">
           <a href="#">

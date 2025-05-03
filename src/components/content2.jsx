@@ -2,7 +2,7 @@ import img5 from "../assets/about_1.jpg";
 import img4 from "../assets/work_4.jpg";
 function Content2() {
   return (
-    <div className="container">
+    <div className="container" data-aos="fade-up" data-aos-delay="200">
       <div className="row justify-content-center mt-5 ">
         <div className="col-md-5 mt-5">
           <img src={img5} className="img-fluid mt-5" alt="" />
